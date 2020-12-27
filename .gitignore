@@ -1,6 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 .idea
+.env
+.terraform
+crash.log
+terraform.tfstate
+terraform.*
+
 # dependencies
 /node_modules
 /.pnp
